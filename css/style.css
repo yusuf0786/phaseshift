@@ -1,0 +1,366 @@
+@font-face{
+	src: url("../fonts/Lato-Regular.ttf");
+	font-family: lato;
+}
+@font-face{
+	src: url("../fonts/Raleway-VariableFont_wght.ttf");
+	font-family: slimfont;
+}
+
+body{
+	background: #fff url("../img/bg.jpg") repeat-y top center;
+	font-family: lato;
+}
+
+.container-fluid{
+	padding: 0;
+}
+
+/* navigation */
+#navigation{
+	background-color: black;
+	border-color: black;
+	border-radius: 0;
+	color: #fff;
+}
+#navigation .navbar-toggle:hover{
+	background: none;
+}
+#navigation .navbar-toggle .icon-bar{
+	background-color: #fff;
+}
+.navbar-header .navbar-brand{
+	color: #fff;
+	font-weight: 900;
+}
+.navbar-header .navbar-brand:hover{
+	color: #fff;
+}
+.navbar-brand span{
+	color: grey;
+	font-weight: 200;
+}
+#mynavbar .navbar-nav .active a{
+	color: #dbdbdb;background-color: #1f1f1f;
+}
+#mynavbar .navbar-nav li a{
+	color: #dbdbdb;
+}
+
+
+/* banner */
+.banner{
+	color: #fff;
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.banner p{
+	color: #f0f0f0;
+	font-size: 26px;
+	font-family: slimfont;
+}
+.banner p sub{
+	font-size: 28px;
+		position: relative;
+		top: 1px;
+}
+.banner p a{
+	color: #fff;
+	text-decoration: underline;
+}
+.mybutton{
+	color: #fff;background-color: #D84780;
+	border: 1px solid #D84780;
+	border-radius: 4px 4px;
+	padding: 8px 28px;
+	font-weight: 900;
+	font-size: 16px;
+	font-family: lato;
+	margin-top: 50px;
+	font-family: lato;
+}
+
+
+/* images-section */
+.images-section .image-box{
+	background-color: #fff;
+	text-align: center;
+	padding-bottom: 48px;
+	margin-bottom: 50px;
+}
+.images-section .image-box img{
+	width: 100%;
+}
+.images-section .image-box p{
+	margin-top: 48px;
+	padding: 0px 20px;
+	line-height: 28px;
+	font-family: slimfont;
+}
+.images-section .image-box button{
+	margin-top: 28px;
+	padding: 8px 20px;
+}
+
+/* otherdata-section */
+.otherdata-section{
+	color: #fff;
+	margin: 28px 0;
+}
+.otherdata-section span{
+	font-size: 48px;
+	float: left;
+	margin-bottom: 16px;
+}
+.otherdata-section h2{
+	font-weight: 900;
+	font-size: 40px;
+	float: left;
+	margin-left: 16px;
+	margin-top: -10px;
+}
+.otherdata-section p{
+	clear: both;
+	font-weight: 900;
+	font-size: 16px;
+	line-height: 28px;
+	margin-bottom: 50px;
+	padding-left: 63px;
+	font-family: slimfont;
+}
+.otherdata-section .border{
+	border-bottom: 1px solid #dbdbdb;
+	padding-bottom: 48px;
+}
+
+/* form-section */
+.formsection-color{
+	background-color: #D84780;
+}
+.form-section{
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+	padding: 58px 0px;
+}
+.form-section h1{
+	font-weight: 900;
+	font-size: 40px;
+}
+.form-section p{
+	font-weight: 400;
+	font-size: 20px;
+	font-family: slimfont;
+}
+.form-section input{
+	border: 1px solid #D84780;
+}
+.form-section textarea{
+	border: 1px solid #D84780;
+}
+.form-section button{
+	font-family: lato;
+	background: none;
+	padding: 8px 16px;
+	border: 1px solid #dbdbdb;
+	border-radius: 4px 4px;
+	font-weight: 900;
+	margin-top: 10px;
+}
+
+
+/* footer */
+.footer{
+	padding-top: 58px;
+	padding-bottom: 58px;
+	background-color: black;
+	text-align: center;
+}
+.footer p{
+	color: grey;
+	font-size: 16px;
+}
+.footer p a{
+	color: #fff;
+	text-decoration: underline;
+	border: none;
+}
+.footer span{
+	color: #fff;
+	font-size: 20px;
+	padding: 10px;
+	margin: 10px 2px;
+	border: 1px solid #fff;
+	border-radius: 100%;
+}
+.footer .fa-facebook{
+	padding: 10px 17px;
+}
+.footer .fa-twitter{
+	padding: 10px 13px;
+}
+
+/* media query */
+@media only screen and (max-width:980px){
+	
+	/* banner */
+	.banner p{
+		font-size: 16px;
+		line-height: 28px;
+	}
+	.banner p sub{
+		font-size: 18px;
+	}
+	.banner button{
+		font-size: 13px;
+		margin-top: 28px;
+	}
+	
+	/* images-section */
+	.images-section .image-box{
+		padding-bottom: 28px;
+		margin-bottom: 38px;
+	}
+	.images-section .image-box p{
+		margin-top: 38px;
+		padding: 0px 16px;
+		font-size: 11px;
+		line-height: 17px;
+	}
+	.images-section .image-box button{
+		margin-top: 16px;
+		padding: 8px 15px;
+		font-size: 11px;
+	}
+	
+	/* otherdata-section */
+	.otherdata-section span{
+		font-size: 38px;
+	}
+	.otherdata-section h2{
+		font-weight: 900;
+		font-size: 28px;
+	}
+	.otherdata-section p{
+		font-size: 11px;
+		line-height: 20px;
+		margin-bottom: 44px;
+		padding-left: 54px;
+	}
+	.otherdata-section .border{
+		padding-bottom: 38px;
+	}
+	
+	/* form-section */
+	.form-section{
+		padding: 48px 0px;
+	}
+	.form-section h1{
+		font-size: 38px;
+	}
+	.form-section p{
+		font-size: 19px;
+	}
+	.form-section button{
+		font-size: 11px;
+	}
+	
+	/* footer */
+	.footer{
+		padding-top: 38px;
+		padding-bottom: 38px;
+	}
+	.footer p{
+		font-size: 13px;
+	}
+	.footer span{
+		font-size: 13px;
+		padding: 8px;
+	}
+	.footer .fa-facebook{
+		padding: 8px 13px;
+	}
+	.footer .fa-twitter{
+		padding: 8px 10px;
+	}
+}
+
+@media only screen and (max-width:767px){
+	
+	/* otherdata-section */
+	.otherdata-section h2{
+		font-size: 20px;
+	}
+}
+
+@media only screen and (max-width:360px){
+	
+	/* banner */
+	.banner p{
+		font-size: 12px;
+		line-height: 20px;
+	}
+	.banner p sub{
+		font-size: 12px;
+	}
+	.banner button{
+		width: 100%;
+		padding-top: 8px;
+		padding-bottom: 8px;
+		font-size: 10px;
+		margin-top: 20px;
+	}
+	
+	
+	
+	
+	
+	/* form-section */
+	.form-section{
+		width: 94%;
+	}
+	.form-section button{
+		width: 100%;
+	}
+	
+	/* footer */
+	.footer{
+		padding-top: 28px;
+		padding-bottom: 28px;
+	}
+	.footer p{
+		font-size: 11px;
+	}
+	.footer span{
+		font-size: 11px;
+		padding: 5px;
+		margin-top: 5px;
+		margin-left: 8px;
+		margin-right: 8px;
+	}
+	.footer .fa-facebook{
+		padding: 5px 9px;
+	}
+	.footer .fa-twitter{
+		padding: 5px 7px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
